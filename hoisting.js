@@ -5,17 +5,17 @@ function callMe() {
   console.log("so call me");
   var lyric = "maybe";
   return lyric;
-  
+
 }
 
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
-
-  var thisIsCrazy = function (){
+    var thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  
+  thisIsCrazy();
 }
 
 function sayMyName() {
